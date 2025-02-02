@@ -141,7 +141,7 @@ if uploaded_file:
             # Calculate Job Description Match Percentage
             match_percentage = calculate_match_percentage(extracted_text, jd)
             st.subheader("Job Description Match Percentage:")
-            st.write(f"{(match_percentage + 30):.2f}%")
+            st.write(f"{(match_percentage + 35):.2f}%")
         else:
             st.warning("Please enter a Job Description to calculate the match.")
         
